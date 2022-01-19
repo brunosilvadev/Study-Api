@@ -4,11 +4,11 @@ namespace Study_Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class StudyController : ControllerBase
+public class TopicController : ControllerBase
 {
-    private readonly ILogger<StudyController> _logger;
+    private readonly ILogger<TopicController> _logger;
 
-    public StudyController(ILogger<StudyController> logger)
+    public TopicController(ILogger<TopicController> logger)
     {
         _logger = logger;
     }
