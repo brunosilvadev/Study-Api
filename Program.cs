@@ -1,11 +1,12 @@
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<CosmosProvider>();
 
 var app = builder.Build();
 
@@ -23,3 +24,9 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+//TODO: consertar a lógica do provider
+//TODO: criar a data access layer separada do controller
+//TODO: parametrizar a busca obviamente
+
