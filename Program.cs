@@ -7,6 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<CosmosProvider>();
+builder.Services.AddSingleton<DbAgent>();
 
 var app = builder.Build();
 
@@ -26,7 +27,4 @@ app.MapControllers();
 app.Run();
 
 
-//TODO: consertar a lógica do provider
-//TODO: criar a data access layer separada do controller
-//TODO: parametrizar a busca obviamente
 

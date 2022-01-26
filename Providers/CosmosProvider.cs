@@ -2,12 +2,18 @@ using Microsoft.Azure.Cosmos;
 
 public class CosmosProvider
 {
-    public CosmosProvider()
+    public async Task Initialize()
     {
-        this.cosmosClient = new CosmosClient(EndpointUri, PrimaryKey);
-        Initialize();        
+        if(this.cosmosClient == null)
+        {
+            this.cosmosClient = new CosmosClient(EndpointUri, PrimaryKey);                  
+        }
+        if (this.database == null || this.container == null)
+        {
+            await InitializeComponents();
+        }
     }
-    private async Task Initialize()
+    private async Task InitializeComponents()
     {
         await this.CreateDatabaseAsync();
 
@@ -23,6 +29,7 @@ public class CosmosProvider
         this.container = await this.database.CreateContainerIfNotExistsAsync(containerId, "/study");
     }
 
+    #region private keys
     // The Azure Cosmos DB endpoint for running this sample.
     private static readonly string EndpointUri = "https://brunosilvadev.documents.azure.com:443/";
     // The primary key for the Azure Cosmos account.
@@ -41,7 +48,6 @@ public class CosmosProvider
     private string databaseId = "study";
     private string containerId = "Container1";
 
-    public string sucesso = "deu bom";
-
+    #endregion
     
 }
