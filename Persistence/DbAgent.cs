@@ -13,10 +13,10 @@ public class DbAgent
         _provider = provider;
     }
 
+    private const string sqlQueryText = "SELECT * FROM c WHERE c.id = '2'";
     public async Task<List<Topic>> GetAllTopics()
     {
-        Task.Run(async () => { await _provider.Initialize(); }).Wait();
-        var sqlQueryText = "SELECT * FROM c WHERE c.id = '2'";
+        Task.Run(async () => { await _provider.Initialize(); }).Wait(); 
         QueryDefinition queryDefinition = new QueryDefinition(sqlQueryText);
         FeedIterator<Topic> queryResultSetIterator = _provider.container.GetItemQueryIterator<Topic>(queryDefinition);        
         
