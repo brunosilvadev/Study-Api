@@ -26,14 +26,14 @@ public class CosmosProvider
 
     private async Task CreateContainerAsync()
     {
-        this.container = await this.database.CreateContainerIfNotExistsAsync(containerId, "/study");
+        this.container = await this.database.CreateContainerIfNotExistsAsync(containerId, "/Items");
     }
 
     #region private keys
     // The Azure Cosmos DB endpoint for running this sample.
     private static readonly string EndpointUri = "https://brunosilvadev.documents.azure.com:443/";
     // The primary key for the Azure Cosmos account.
-    private static readonly string PrimaryKey = "1K8T4InsGJmChOtWz5x9RRdj1KyqR6OuNGyhBaVjlQOsaijfAZs8C1vqRdscoPlCxgdj871eLV8Rs5nkLxKvsg==";
+    private static readonly string PrimaryKey = "NF22zjdNOKzKSQiYNVZcoRfCsHhf1WEuh7Yojp3VVQuimqyYZZPcVYk49PyyKpxwKiFZKtnUaIbiE8WkmM3VJg==";
 
     // The Cosmos client instance
     private CosmosClient cosmosClient;
