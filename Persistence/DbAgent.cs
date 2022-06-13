@@ -14,7 +14,7 @@ public class DbAgent
     }
 
     private const string sqlQueryText = "SELECT * FROM c WHERE c.id = '2'";
-    public async Task<List<Topic>> GetAllTopics()
+    public async Task<List<Topic>> GetAllTopicsCosmo()
     {
         Task.Run(async () => { await _provider.Initialize(); }).Wait(); 
         QueryDefinition queryDefinition = new QueryDefinition(sqlQueryText);

@@ -21,6 +21,6 @@ public class TopicController : ControllerBase
     [HttpGet("Topics", Name = "GetTopics")]
     public async Task<List<Topic>> GetTopics()
     {
-        return await _agent.GetAllTopics();
+        return await _agent.GetAllTopicsCosmo();
     }
 }
