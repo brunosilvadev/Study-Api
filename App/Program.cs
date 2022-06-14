@@ -7,7 +7,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<CosmosProvider>();
-builder.Services.AddSingleton<DbAgent>();
+builder.Services.AddSingleton<CosmosDbAgent>();
+builder.Services.AddSingleton<LiteDbAgent>();
 
 var app = builder.Build();
 

@@ -1,13 +1,12 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Cosmos;
 
 
 
-public class DbAgent
+public class CosmosDbAgent
 {
-    private readonly ILogger<DbAgent> _logger;
+    private readonly ILogger<CosmosDbAgent> _logger;
     private CosmosProvider _provider;
-    public DbAgent(ILogger<DbAgent> logger, CosmosProvider provider)
+    public CosmosDbAgent(ILogger<CosmosDbAgent> logger, CosmosProvider provider)
     {
         _logger = logger;
         _provider = provider;
