@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Study_Api.Controllers;
 
+//TODO Convert to Minimal API Endpoint
 [ApiController]
 [Route("[controller]")]
 public class TopicController : ControllerBase
@@ -36,5 +37,10 @@ public class TopicController : ControllerBase
     public void DeleteTopic(int id)
     {
         _liteAgent.DeleteTopic(id);
+    }
+    [HttpPut("UpdateTopic", Name ="UpdateTopic")]
+    public void UpdateTopic(Topic topic)
+    {
+        _liteAgent.UpdateTopic(topic);
     }
 }

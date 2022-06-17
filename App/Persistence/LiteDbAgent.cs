@@ -19,13 +19,24 @@ public class LiteDbAgent
             return topic.Id;
         }
     }
-
     public void DeleteTopic(int id)
     {
         using(var db = new LiteDatabase(@"database.db"))
         {
             var topics = db.GetCollection<Topic>("topics");
             topics.Delete(id);
+        }
+    }
+    public void UpdateTopic(Topic topic)
+    {
+        if(topic.Id == 0)
+        {
+            throw new ArgumentException();
+        }
+        using (var db = new LiteDatabase(@"database.db"))
+        {
+            var topics = db.GetCollection<Topic>("topics");            
+            topics.Update(topic);
         }
     }
 }
