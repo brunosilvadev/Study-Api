@@ -5,3 +5,5 @@ Tests/StudyApiTests/bin/*
 Tests/StudyApiTests/obj/*
 Tests/StudyApiTests/obj/Debug/net6.0/StudyApiTests.assets.cache
 bin/*
+.vs/Study Api/v17/TestStore/0/000.testlog
+.vs/Study Api/v17/TestStore/0/000.testlog
