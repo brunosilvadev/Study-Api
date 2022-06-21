@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study Api", "App\Study Api.csproj", "{924D38B3-D9C5-46C7-B787-626AF0053B52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyApiTests", "Tests\StudyApiTests\StudyApiTests.csproj", "{62260518-0B3E-4CEB-A8FD-91C3DAA58E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyApiTests", "Tests\StudyApiTests\StudyApiTests.csproj", "{62260518-0B3E-4CEB-A8FD-91C3DAA58E98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
