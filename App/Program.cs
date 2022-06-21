@@ -5,8 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<CosmosProvider>();
-builder.Services.AddSingleton<CosmosDbAgent>();
 builder.Services.AddSingleton<LiteDbAgent>();
 
 var app = builder.Build();
@@ -19,6 +17,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors();
 
 app.RegisterEndpoint();
 
