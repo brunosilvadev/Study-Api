@@ -4,3 +4,4 @@ obj/*
 Tests/StudyApiTests/bin/*
 Tests/StudyApiTests/obj/*
 Tests/StudyApiTests/obj/Debug/net6.0/StudyApiTests.assets.cache
+bin/*
