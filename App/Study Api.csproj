@@ -24,4 +24,8 @@
     <None Remove="xunit" />
     <None Remove="xunit.runner.visualstudio" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Providers\" />
+  </ItemGroup>
 </Project>
