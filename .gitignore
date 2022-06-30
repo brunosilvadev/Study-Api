@@ -1,0 +1,5 @@
+
+*.pdb
+Tests/StudyApiTests/bin/Debug/net6.0/Study Api.dll
+*.pdb
+*.dll
