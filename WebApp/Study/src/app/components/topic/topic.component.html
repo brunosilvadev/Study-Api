@@ -1,9 +1,12 @@
-<div class="topic-container">    
+<div class="topic-container" *ngIf="topics.length == 0">    
     <div class="white-box">
         <h4 class="texto">Test</h4>
         <progress value="25" max="100"></progress>
     </div>
 </div>
-<ul>
-    <li *ngFor="let topic of topics">{{ topic.name }}</li>
-</ul>
+<div *ngIf="topics.length > 0" class="topic-container">    
+    <div class="white-box" *ngFor="let topic of topics">
+        <h4 class="texto">{{topic.name}}</h4>
+        <progress value={{topic.progress}} max="100"></progress>
+    </div>
+</div>
