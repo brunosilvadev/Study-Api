@@ -1,0 +1,63 @@
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Azure.Cosmos.ServiceInterop.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Cosmos.CRTCompat.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/appsettings.Development.json
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/appsettings.json
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/xunit.runner.reporters.netcoreapp10.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/xunit.runner.utility.netcoreapp10.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Study Api
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Study Api.deps.json
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Study Api.runtimeconfig.json
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Study Api.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/ref/Study Api.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Study Api.pdb
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Azure.Core.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/LiteDB.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Azure.Cosmos.Client.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Azure.Cosmos.Core.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Azure.Cosmos.Direct.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Bcl.HashCode.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Cosmos.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/System.Drawing.Common.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/System.Memory.Data.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/System.Security.Permissions.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/System.Windows.Extensions.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/xunit.abstractions.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/xunit.assert.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/xunit.core.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/xunit.execution.dotnet.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/runtimes/win-x64/native/Cosmos.CRTCompat.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Azure.Cosmos.ServiceInterop.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/brunosilvadev/GitHub/Study-Api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.csproj.AssemblyReference.cache
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.GeneratedMSBuildEditorConfig.editorconfig
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.AssemblyInfoInputs.cache
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.AssemblyInfo.cs
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.csproj.CoreCompileInputs.cache
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.MvcApplicationPartsAssemblyInfo.cs
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.MvcApplicationPartsAssemblyInfo.cache
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/staticwebassets.build.json
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/staticwebassets.development.json
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/scopedcss/bundle/Study Api.styles.css
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.csproj.CopyComplete
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.dll
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/ref/Study Api.dll
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.pdb
+/home/brunosilvadev/GitHub/Study-Api/obj/Debug/net6.0/Study Api.genruntimeconfig.cache

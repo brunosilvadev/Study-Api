@@ -3,3 +3,4 @@
 Tests/StudyApiTests/bin/Debug/net6.0/Study Api.dll
 *.pdb
 *.dll
+obj/Debug/net6.0/Study Api.csproj.CopyComplete
