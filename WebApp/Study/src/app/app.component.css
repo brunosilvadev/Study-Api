@@ -1,30 +1,45 @@
-body{
-    background: rgb(49,46,79);
-    background: linear-gradient(to top, rgba(49,46,79,1) 30%, rgba(73,71,120,1) 80%);
+body {
+    background: rgb(49, 46, 79);
     background-attachment: fixed;
+    background-image: linear-gradient(180deg,
+            hsl(216deg 100% 12%) 0%,
+            hsl(244deg 45% 18%) 18%,
+            hsl(274deg 48% 19%) 35%,
+            hsl(302deg 53% 19%) 51%,
+            hsl(320deg 68% 23%) 65%,
+            hsl(330deg 78% 25%) 76%,
+            hsl(340deg 78% 29%) 85%,
+            hsl(353deg 68% 33%) 91%,
+            hsl(9deg 71% 34%) 96%,
+            hsl(24deg 100% 30%) 100%);
+
 }
-.main{
-    margin-top:50px;
+
+.main {
+    margin-top: 50px;
     text-align: center;
 }
-.texto{
-    color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+.texto {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     letter-spacing: 0.08em;
     text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
 }
-hr.transp{
-    border-color:rgb(255,255,255,0.25);
-  
+
+hr.transp {
+    border-color: rgb(255, 255, 255, 0.25);
+
 }
-.topic-container{
+
+.topic-container {
     display: flex;
     justify-content: center;
 }
 
-.white-box{
-    background-color: rgb(255,255,255,0.08);
+.white-box {
+    background-color: rgb(255, 255, 255, 0.08);
     padding: 0.2em 1em 1em 1em;
     width: 250px;
     border-radius: 10px;
