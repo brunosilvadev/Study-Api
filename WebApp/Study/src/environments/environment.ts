@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiUri: "https://localhost:7134/"
+  //apiUri: "https://localhost:7134/"
+  apiUri: "https://study-api.azurewebsites.net/"
 };
 
 /*
