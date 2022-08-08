@@ -7,14 +7,22 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<LiteDbAgent>();
 
-builder.Services.AddCors();
+builder.Services.AddCors(options =>
+    {
+        options.AddPolicy(
+          "CorsPolicy",
+          builder => builder.WithOrigins("http://localhost:4200")
+          .AllowAnyMethod()
+          .AllowAnyHeader()
+          .AllowCredentials());
+    });
 
 var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseCors();
+app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 
