@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lzYr8gJ7Lwuc9komONKy21HWm+bELlGgUvnKgQHdpSQzOBvbc78JLkDPnjxJaT9bUR1cSedNfYF3k0FoEnKDLg==",
+  "dgSpecHash": "YYcsDG/Uj/d5bBir9RYHRBHfwbfH3kYwh3YctBt86Od4G5oiZXo90NqnxILIlCHV+YKJX3Nd+S5m1NT0kWcVUg==",
   "success": true,
   "projectFilePath": "/Users/bruno/Documents/Study/Study Api/Tests/StudyApiTests/StudyApiTests.csproj",
   "expectedPackageFiles": [
     "/Users/bruno/.nuget/packages/azure.core/1.19.0/azure.core.1.19.0.nupkg.sha512",
-    "/Users/bruno/.nuget/packages/litedb/5.0.11/litedb.5.0.11.nupkg.sha512",
     "/Users/bruno/.nuget/packages/microsoft.azure.cosmos/3.27.2/microsoft.azure.cosmos.3.27.2.nupkg.sha512",
     "/Users/bruno/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "/Users/bruno/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

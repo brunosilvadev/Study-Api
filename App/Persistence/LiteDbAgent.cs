@@ -2,18 +2,18 @@
 
 public class LiteDbAgent
 {
-    private const string DB_NAME = @"database.db";
+    private const string connString = "Filename=Todo.db;mode=Exclusive";
     public List<Topic> GetAllTopics()
     {
-        using (var db = new LiteDatabase(DB_NAME))
+        using (var db = new LiteDatabase(connString))
         {
             var topics = db.GetCollection<Topic>("topics");
-            return topics.Query().OrderBy(t => t.Name).ToList();
+            return topics.FindAll().ToList();
         }        
     }
     public int InsertTopic(Topic topic)
     {
-        using (var db = new LiteDatabase(DB_NAME))
+        using (var db = new LiteDatabase(connString))
         {
             var topics = db.GetCollection<Topic>("topics");
             topics.Insert(topic);
@@ -22,7 +22,7 @@ public class LiteDbAgent
     }
     public void DeleteTopic(int id)
     {
-        using(var db = new LiteDatabase(DB_NAME))
+        using(var db = new LiteDatabase(connString))
         {
             var topics = db.GetCollection<Topic>("topics");
             topics.Delete(id);
@@ -34,7 +34,7 @@ public class LiteDbAgent
         {
             throw new ArgumentException();
         }
-        using (var db = new LiteDatabase(DB_NAME))
+        using (var db = new LiteDatabase(connString))
         {
             var topics = db.GetCollection<Topic>("topics");            
             topics.Update(topic);
